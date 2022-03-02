@@ -1,0 +1,64 @@
+1.Selenium:
+  *Selenium is an Open source automation testing tool used to test web-based applications.
+  * It can support any platforms.It will support chromedriver,IE and Safari. 
+ Selenium WebDriver:
+    It is the most important tool of the Selenium suite.Because of many limitations 
+    with RC,WebDriver was developed.
+
+ 2.Selenium communicate with the Web browser:
+  Selenium Script create an HTTP request for each selenium command and sends it to the browser driver.
+  An HTTP request is then sent to the server using Browser Driver.
+  The steps are executed on the HTTP server.
+  The execution status is sent to the HTTP server which is then captured by the automation script.
+
+ 3.Locators to find the elements:
+        *id
+        *name
+        *className
+        *tagName
+        *link text
+        *partial link text
+        *CssSelector 
+        *xpath.
+
+ 4.ID is prefered than xpath:
+    ID is considered as unique key so there cannot be more than 1 elements for same ID where xpath have 
+    shows cases when we can get 2 or more elements for same xpath.
+
+ 5.Select value in dropDown:
+    Import the "Select" package.
+    Declare the dropdown elements as an instance of the Select class.
+            Eg. Select drpCountry = new Select(path);
+    
+
+ 6.Absolute xpath: 
+    Starting from rootnote.
+    Absolute xpath start with single /.we didn't used absolute xpath in our realtime scenarios.
+Relative xpath:
+    relative  xpath start with double//.
+   Does not contain the entire root.
+
+7. How to verify if the given check box is checked or not (it is not taught but you can explore) Try here: http://leafground.com/pages/checkbox.html
+               We can use isenabled method to check that  checkbox is enabled or  not ,it 
+returns boolean values . 
+Returns true if checked and returns false if not. 
+       
+8. Difference between System.setProperty and WebDriverManager 
+        system.set property sets the property to the browers  because browsers does not have inbuild automation 
+properties.
+      webdrivers execute the commands in the browser.download the driver an dset the 
+set the path.
+
+ 9.Syntax for preceding xpath:
+      younger Cousin xpath/preceding::elder tag.
+
+   Syntax for following xpath:
+         Elder Cousin xpath/preceding::younger tag.
+
+ 10.To get an attributes value using selenium webDriver:
+      To create path and convert to webElement.
+      Introduce a method getAttribute and send a argument to the method , arguments as attribute from path 
+      and its return type is String.
+      print the attribute.
+    
+

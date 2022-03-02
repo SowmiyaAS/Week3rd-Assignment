@@ -1,0 +1,59 @@
+1.What is oops stands for?
+       oops stands for object oriented programming language.
+  types:
+    1.Inheritance
+    2.polymorphism
+    3.Encapsulation
+    4.Abstraction
+
+2.What is Polymorphism? explain types?
+   Many forms of implementation.
+     types:
+   1.method overloading
+        same class and same method but different arguments.
+        It is a compiletime polymorphism
+   2.method overriding
+         different class with same method.
+        It is a runtime polymorphism
+
+3.what is interface and example in selenium,java?
+           Interface is a design.It has no implementation.end with semicolan.
+java example:extends,implementation
+selenium example:webdriver
+
+4.what is abstarct class and example?
+   It is used to add future functionality.
+partially unimplemented methods and implemented methods.
+        ex: webDriverManager
+
+5.Difference between multiple inheritance and multilevel inheritance
+     Multiple inheritance: one child inherits from multiple parents.
+                           It is not allowed at class level in java.
+     Multilevel inheritance: A class has more than one parent class.
+
+6.Is multiple inheritance possible in java?
+     It is not allowed at class level in java.because It is an ambiguity.
+
+7.What is keyword for using inheritance  
+       extends keyword is using inheritance.
+
+8.what is the keyword to connect interface and class
+          implementation keyword is to connect interface and class
+        
+9.what is difference between class and interface
+Class:
+       A class describe the attributes and behaviour of an object.
+ It contains abstract method and concrete method.
+Interface:
+       An interface contains behaviours that a class implemets.
+      It contains only abstract class.
+10.what is difference between class and abstract class
+Class:
+       A concrete class cannot contains abstract method.
+      * It is instantiate.
+Abstract Class:
+      * An abstract class may or may not contains abstract method.
+      * It is not instantiate.
+    
+
+
